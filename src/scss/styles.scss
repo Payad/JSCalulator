@@ -8,7 +8,8 @@ body {
     margin: 0;
     // background-color: green;
     height: 100vh;
-    background: linear-gradient(to right, #bbd2c5, #536976, #292e49)
+    background: linear-gradient(to right, #bbd2c5, #536976, #292e49);
+    font-family: 'Roboto', sans-serif;
 }
 
 .calculator-grid {
@@ -48,11 +49,13 @@ body {
     }
 
     .previous-operand {
-        color: rgba(255, 255, 255, .75)
+        color: rgba(255, 255, 255, .75);
+        font-size: 20px;
     }
 
     .current-operand {
-        color: rgba(255, 255, 255, .75)
+        color: rgba(255, 255, 255, .75);
+        font-size: 30px;
     }
 }
 // .calculator-grid > button {
